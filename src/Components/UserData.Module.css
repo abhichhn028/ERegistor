@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: grid; justify-content: center; align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.child{
+    width: 100vw;
+    height: 100%;
+    background-color: #E5E5E5;
+    padding-top: 30px;
+}
+
+.child .header{
+    width: 70%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.94);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header .heading{padding-left: 8px;}
+
+.header h4{
+background: #903BFC;
+border-radius: 20px;
+padding: 5px 50px 5px 50px;
+color: white;
+font-size: 14px;
+font-weight: 500;
+}
+
+.header .nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.ap{background-color: #F93154; }
+.ap:hover{background-color: #903BFC;}
+.as{background-color: #903BFC;}
+.as:hover{background-color:#F93154 ;}
+
+.body{
+    margin: auto;
+    width: 60%;
+    height: 565px;
+    background: #FFFFFF;
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 20px 20px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content-table thead tr {
+    background-color: #903BFC;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.content-table th, .content-table td{padding: 12px 15px;}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #F93154;
+}
+.excel-btn{ border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: rgb(236, 117, 137);
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+overflow: hidden;
+margin-top: 20px;}

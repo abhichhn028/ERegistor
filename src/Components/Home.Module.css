@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: grid; justify-content: center; align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.child{
+    width: 100vw;
+    height: 100%;
+    background-color: #E5E5E5;
+    padding-top: 30px;
+}
+
+.child .header{
+    width: 70%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.94);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header .heading{padding-left: 8px;}
+
+.header h4{
+background: #903BFC;
+border-radius: 20px;
+padding: 5px 50px 5px 50px;
+color: white;
+font-size: 14px;
+font-weight: 500;
+}
+
+.header .nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.ap{background-color: #F93154; }
+.ap:hover{background-color: #903BFC;}
+.as{background-color: #903BFC;}
+.as:hover{background-color:#F93154 ;}
+
+.body{
+    margin: auto;
+    width: 60%;
+    height: 565px;
+    background: #FFFFFF;
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 20px 20px;
+}
+
+.wrap-contact{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-form .contact-form-title{
+    text-align: center;
+    border: 2px solid red;
+}
+
+.input-row{display: flex; justify-content: space-between; margin-bottom: 20px;padding-left: 20px; padding-right: 20px;}
+
+.wrap-input{
+    flex-basis: 100%;
+    margin: 20px;
+
+}
+
+.input100{width: 100%; padding-bottom: 8px;
+padding-top: 5px;
+border-top-style: hidden;
+border-left-style: hidden;
+border-right-style: hidden;}
+
+.input100:focus{
+    outline: none;
+}
+
+
+.btn{padding-left: 20px; padding-right: 20px; text-align: center;}
+.btn button{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #F93154;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #903BFC;
+
+}
+
+.input200{border-bottom: 2px solid #F93154 ;}
+
+.body p{text-align: center; opacity: 0.9;}
+.body p span{color: #F93154;}
